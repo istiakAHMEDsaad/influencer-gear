@@ -8,12 +8,19 @@
   font-family: "Poppins", sans-serif;
 }
 
-.head-nav,
-.journey-start,
 .head{
+    /* border: 1px solid black; */
   max-width: 90rem;
   margin: 0 auto;
-  padding: 6rem 7.5rem 6.25rem 7.5rem;
+  padding: 0 7.5rem;
+}
+/* Left Right */
+.journey-start,
+.head-nav{
+  max-width: 90rem;
+  margin: 0 auto;
+  /* padding: 0 7.5rem; */
+  /* padding: 6rem 7.5rem 6.25rem 7.5rem; */
 }
 
 /* Custom Properties */
@@ -21,7 +28,7 @@
   --primary-color: rgba(58, 58, 58, 1);
   --liga-text: 'clig' off, 'liga' off;
 }
-.fa-regular{
+#nav-icon{
   color: rgba(0, 0, 0, 1);
   font-size: 1.6rem;
 }
@@ -35,6 +42,6 @@
   border-radius: 4px;
   position: absolute;
   top: -3px;
-  right: 33px;
+  right: -1px;
   background-color: rgba(0, 0, 0, 1);
 }
