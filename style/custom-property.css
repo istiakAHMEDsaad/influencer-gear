@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: "Poppins", sans-serif; */
+
+/* Shared Style */
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.head-nav,
+.journey-start,
+.head{
+  max-width: 90rem;
+  margin: 0 auto;
+  padding: 6rem 7.5rem 6.25rem 7.5rem;
+}
+
+/* Custom Properties */
+:root{
+  --primary-color: rgba(58, 58, 58, 1);
+  --liga-text: 'clig' off, 'liga' off;
+}
+.fa-regular{
+  color: rgba(0, 0, 0, 1);
+  font-size: 1.6rem;
+}
+/* Shoping dot */
+.shopping-container{
+  position: relative;
+}
+.black-spot{
+  height: 8px;
+  width: 8px;
+  border-radius: 4px;
+  position: absolute;
+  top: -3px;
+  right: 33px;
+  background-color: rgba(0, 0, 0, 1);
+}

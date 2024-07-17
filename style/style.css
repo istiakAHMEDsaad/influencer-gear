@@ -1,0 +1,83 @@
+/* ------------------------------Nav Bar------------------------------ */
+.head-nav{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+    margin-bottom: 3.1rem;
+}
+.head-ancor{
+    /* border: 1px solid black; */
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0 34px;
+}
+.head-title{
+    /* border: 1px solid black; */
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    
+}
+.head-ancor li a{
+    text-decoration: none;
+    /* margin-right: calc(90rem - 87.875rem); */
+    
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+/* ------------------------------Journey Start------------------------------ */
+.journey-start{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.journey-start .journey-right{
+    border: 1px solid black;
+    background-image: url(../assets/images/Circle_design.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 29.6875rem;
+}
+.journey-right img{
+    width: 100%;
+}
+.journey-left{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: space-between;
+    height: 270px;
+    gap: 16px 0;
+}
+.journey-left .journey-title{
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 4.375rem;
+    color: var(--primary-color);
+    font-feature-settings: var(--liga-text);
+}
+.journey-left .journey-para{
+    font-weight: 600;
+    color: var(--primary-color);
+}
+.journey-left a{
+    border: 1px solid black;
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    border-radius: 41px;
+    height: 44px;
+    width: 196px;
+}
