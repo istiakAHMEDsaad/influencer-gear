@@ -11,4 +11,4 @@ _Resource -->_
 ### Live Page:
 [Influencer Gear](https://istiakahmedsaad.github.io/influencer-gear/)
 ### Screen Shot:
-![Web Page Home Screenshot](https://i.ibb.co/PQBgMH8/temp1.png)
+![Web Home Page Screenshot](https://i.ibb.co/PQBgMH8/temp1.png)
